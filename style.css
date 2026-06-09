@@ -361,7 +361,9 @@ footer {
   text-align: center;
   transition: 0.3s;
 }
-
+h3{
+  color: #e91e63;
+}
 .stat-card:hover {
   transform: translateY(-8px);
 }

@@ -362,3 +362,20 @@ footer {
     width: 100%;
   }
 }
+  color: #e91e63;
+}
+.stat-card:hover {
+  transform: translateY(-8px);
+}
+
+.stat-card span {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.stat-card h3 {
+  color: white;
+  font-size: 1rem;
+  line-height: 1.5;
+}

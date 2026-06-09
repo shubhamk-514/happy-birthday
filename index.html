@@ -30,9 +30,7 @@
       </div>
     </div>
 
-    <audio id="birthdaySong">
-  <source src="music/happy-birthday.mp3" type="audio/mpeg">
-</audio>
+ 
 
     <!-- HEADER -->
     <header id="home">
@@ -44,19 +42,6 @@
       </p>
     </header>
 
-    <div class="song-box">
-  <button onclick="document.getElementById('timelineSong').play()">
-    🎵 Play This Chapter's Song
-  </button>
-
- <audio id="ourSong" loop>
-  <source src="music/our-song.mp3" type="audio/mpeg">
-</audio>
-
-<div class="music-player">
-  <button onclick="playOurSong()">▶️ Play</button>
-  <button onclick="pauseOurSong()">⏸ Pause</button>
-</div>
 
 </div>
 
@@ -1368,13 +1353,6 @@ Forever grateful for every memory. 💖
   } else {
     alert("Wrong password ❤️");
   }
-}
-function playOurSong() {
-  document.getElementById("ourSong").play();
-}
-
-function pauseOurSong() {
-  document.getElementById("ourSong").pause();
 }
 
       function showEffect() {
